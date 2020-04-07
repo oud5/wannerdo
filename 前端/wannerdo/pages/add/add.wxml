@@ -1,0 +1,8 @@
+<!--pages/add/add.wxml-->
+
+<!-- title -->
+<input bindblur="setTitle" class="addTitle" auto-focus placeholder="请输入标题"/>
+
+<!-- content -->
+<textarea bindblur="setContent" class="addContent" auto-focus placeholder="请输入内容" maxlength="-1" auto-height="{{true}}"/>
+<button class="addButton" bindtap="send">确定</button>

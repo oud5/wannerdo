@@ -1,0 +1,7 @@
+<!--pages/list/list.wxml-->
+<button bindtap="add">添加</button>
+<view class="list">
+    <view wx:for="{{list}}" wx:key="list_{{index}}" bindtap="goTODetail" data-title="{{item.title}}" data-content="{{item.content}}" data-id="{{item.id}}">
+        <view>{{item.title}}</view>
+    </view>
+</view>

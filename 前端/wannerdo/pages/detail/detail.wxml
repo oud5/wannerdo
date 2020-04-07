@@ -1,0 +1,9 @@
+<!-- 标题 -->
+<input bindblur="changeTitle" value="{{title}}"/>
+
+<!-- 内容 -->
+<textarea bindblur="changeContent" value="{{content}}"></textarea>
+
+
+<button bindtap="delete">删除</button>
+<button bindtap="back">返回</button>
