@@ -34,6 +34,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    url:"https://liushuaii.club:8443/wannerdo_war_exploded/"
   }
 })

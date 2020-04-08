@@ -84,7 +84,7 @@ Page({
         // success
         console.log(res);
         wx.request({
-          url: 'https://liushuaii.club:8443/wannerdo_war_exploded/CheckHasOpenid',
+          url: getApp().globalData.url+'CheckHasOpenid',
           data: {
             code:res.code
           },

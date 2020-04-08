@@ -19,7 +19,7 @@ Page({
         // success
         console.log(res);
         wx.request({
-          url: 'https://liushuaii.club:8443/wannerdo_war_exploded/Login',
+          url: getApp().globalData.url+'Login',
           data: {
             code:res.code
           },

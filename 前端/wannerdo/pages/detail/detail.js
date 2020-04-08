@@ -26,7 +26,7 @@ Page({
     var that = this
     // console.log(that)
     wx.request({
-      url: 'https://liushuaii.club:8443/wannerdo_war_exploded/DeleteEvent',
+      url: getApp().globalData.url+'DeleteEvent',
       data: {
         id:that.options.id
       },
@@ -54,7 +54,7 @@ Page({
     console.log(e)
     var that = this
     wx.request({
-      url: 'https://liushuaii.club:8443/wannerdo_war_exploded/ChangeTitle',
+      url: getApp().globalData.url+'ChangeTitle',
       data: {
         id:that.options.id,
         title:e.detail.value
@@ -81,7 +81,7 @@ Page({
     console.log(e)
     var that = this
     wx.request({
-      url: 'https://liushuaii.club:8443/wannerdo_war_exploded/ChangeContent',
+      url: getApp().globalData.url+'ChangeContent',
       data: {
         id:that.options.id,
         content:e.detail.value
