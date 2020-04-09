@@ -17,6 +17,7 @@ public class CheckHasOpenid extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("application/json;charset=UTF-8");
         String code = request.getParameter("code");
         String openid = Action.getOpenid(code);
 

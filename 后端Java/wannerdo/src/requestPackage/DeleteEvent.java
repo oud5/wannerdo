@@ -16,6 +16,7 @@ public class DeleteEvent extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("application/json;charset=UTF-8");
         String id = request.getParameter("id");
         int intId = Integer.parseInt(id);
         Action.deleteEvent(intId);

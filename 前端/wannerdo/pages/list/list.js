@@ -67,12 +67,12 @@ Page({
 
   goTODetail:function(e)
   {
-    console.log(e.currentTarget.dataset)
+    // console.log(e.currentTarget.dataset)
     var id = e.currentTarget.dataset.id
     var title = e.currentTarget.dataset.title
     var content = e.currentTarget.dataset.content
-    wx.navigateTo({
-      url: '../detail/detail?title='+title+'&content='+content+"&id="+id
+    wx.reLaunch({
+      url: '../detail/detail?title='+title+'&content='+content+"&id="+id,
     })
   },
   /**

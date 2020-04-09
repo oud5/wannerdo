@@ -15,7 +15,9 @@ Page({
    */
   back:function(e)
   {
-    wx.navigateBack()
+    wx.reLaunch({
+      url: '../list/list'
+    })
   },
 
   /**
@@ -42,6 +44,9 @@ Page({
       complete: function() {
         // complete
       }
+    })
+    wx.reLaunch({
+      url: '../list/list'
     })
   },
 
@@ -109,6 +114,7 @@ Page({
       title:options.title,
       content:options.content
     })
+    
   },
 
   /**

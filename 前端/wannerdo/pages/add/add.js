@@ -16,8 +16,10 @@ Page({
     wx.login({
       success: function(res){
         // success
+        console.log("send")
         console.log(res);
-        console.log("a");
+        // console.log("a");
+        console.log(that.data.title)
         wx.request({
           url: getApp().globalData.url+'AddEvent',
           data: {

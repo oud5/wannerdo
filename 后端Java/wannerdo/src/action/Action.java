@@ -13,16 +13,84 @@ import java.util.Map;
 import java.util.Vector;
 
 public class Action {
+    final static String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    final static String DB_URL = "jdbc:mysql://localhost:3306/wannerdo?serverTimezone=UTC&characterEncoding=utf-8";
+
+    // 数据库的用户名与密码，需要根据自己的设置
+    final static String USER = "root";
+    final static String PASS = "089012";
+
+    //判断字符编码
+    public static String getEncoding(String str)
+    {
+        String encode;
+
+        encode = "UTF-16";
+        try
+        {
+            if(str.equals(new String(str.getBytes(), encode)))
+            {
+                return encode;
+            }
+        }
+        catch(Exception ex) {}
+
+        encode = "ASCII";
+        try
+        {
+            if(str.equals(new String(str.getBytes(), encode)))
+            {
+                return "字符串<< " + str + " >>中仅由数字和英文字母组成，无法识别其编码格式";
+            }
+        }
+        catch(Exception ex) {}
+
+        encode = "ISO-8859-1";
+        try
+        {
+            if(str.equals(new String(str.getBytes(), encode)))
+            {
+                return encode;
+            }
+        }
+        catch(Exception ex) {}
+
+        encode = "GB2312";
+        try
+        {
+            if(str.equals(new String(str.getBytes(), encode)))
+            {
+                return encode;
+            }
+        }
+        catch(Exception ex) {}
+
+        encode = "UTF-8";
+        try
+        {
+            if(str.equals(new String(str.getBytes(), encode)))
+            {
+                return encode;
+            }
+        }
+        catch(Exception ex) {}
+
+        /*
+         *......待完善
+         */
+
+        return "未识别编码格式";
+    }
 
     public static Vector getToDo(String openid) throws JsonProcessingException {
         //访问数据库***********
         // JDBC 驱动名及数据库 URL
-        final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        final String DB_URL = "jdbc:mysql://localhost:3306/wannerdo?serverTimezone=UTC";
+        final String JDBC_DRIVER = Action.JDBC_DRIVER;
+        final String DB_URL = Action.DB_URL;
 
         // 数据库的用户名与密码，需要根据自己的设置
-        final String USER = "root";
-        final String PASS = "089012";
+        final String USER = Action.USER;
+        final String PASS = Action.PASS;
 
         //JSON转化
         ObjectMapper objectMapper = new ObjectMapper();
@@ -141,15 +209,14 @@ public class Action {
     public static int addEvent(String openid, String title, String content) {
         //访问数据库***********
         // JDBC 驱动名及数据库 URL
-        final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        final String DB_URL = "jdbc:mysql://localhost:3306/wannerdo?serverTimezone=UTC";
+        final String JDBC_DRIVER = Action.JDBC_DRIVER;
+        final String DB_URL = Action.DB_URL;
 
         // 数据库的用户名与密码，需要根据自己的设置
-        final String USER = "root";
-        final String PASS = "089012";
+        final String USER = Action.USER;
+        final String PASS = Action.PASS;
 
-        //JSON转化
-        ObjectMapper objectMapper = new ObjectMapper();
+
 
         Connection con = null;
         PreparedStatement stmt = null;
@@ -218,12 +285,12 @@ public class Action {
     private static void addUser(String openid) {
         //访问数据库***********
         // JDBC 驱动名及数据库 URL
-        final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        final String DB_URL = "jdbc:mysql://localhost:3306/wannerdo?serverTimezone=UTC";
+        final String JDBC_DRIVER = Action.JDBC_DRIVER;
+        final String DB_URL = Action.DB_URL;
 
         // 数据库的用户名与密码，需要根据自己的设置
-        final String USER = "root";
-        final String PASS = "089012";
+        final String USER = Action.USER;
+        final String PASS = Action.PASS;
 
         //JSON转化
         ObjectMapper objectMapper = new ObjectMapper();
@@ -292,12 +359,12 @@ public class Action {
     public static void checkHasOpenid(String openid) throws SQLException {
         //访问数据库***********
         // JDBC 驱动名及数据库 URL
-        final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        final String DB_URL = "jdbc:mysql://localhost:3306/wannerdo?serverTimezone=UTC";
+        final String JDBC_DRIVER = Action.JDBC_DRIVER;
+        final String DB_URL = Action.DB_URL;
 
         // 数据库的用户名与密码，需要根据自己的设置
-        final String USER = "root";
-        final String PASS = "089012";
+        final String USER = Action.USER;
+        final String PASS = Action.PASS;
 
         //JSON转化
         ObjectMapper objectMapper = new ObjectMapper();
@@ -371,12 +438,12 @@ public class Action {
     public static void deleteEvent(int id) {
         //访问数据库***********
         // JDBC 驱动名及数据库 URL
-        final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        final String DB_URL = "jdbc:mysql://localhost:3306/wannerdo?serverTimezone=UTC";
+        final String JDBC_DRIVER = Action.JDBC_DRIVER;
+        final String DB_URL = Action.DB_URL;
 
         // 数据库的用户名与密码，需要根据自己的设置
-        final String USER = "root";
-        final String PASS = "089012";
+        final String USER = Action.USER;
+        final String PASS = Action.PASS;
 
         //JSON转化
         ObjectMapper objectMapper = new ObjectMapper();
@@ -446,12 +513,12 @@ public class Action {
     public static void changeTitle(int id, String title) {
         //访问数据库***********
         // JDBC 驱动名及数据库 URL
-        final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        final String DB_URL = "jdbc:mysql://localhost:3306/wannerdo?serverTimezone=UTC";
+        final String JDBC_DRIVER = Action.JDBC_DRIVER;
+        final String DB_URL = Action.DB_URL;
 
         // 数据库的用户名与密码，需要根据自己的设置
-        final String USER = "root";
-        final String PASS = "089012";
+        final String USER = Action.USER;
+        final String PASS = Action.PASS;
 
         //JSON转化
         ObjectMapper objectMapper = new ObjectMapper();
@@ -521,12 +588,12 @@ public class Action {
     public static void changeContent(int id, String content) {
         //访问数据库***********
         // JDBC 驱动名及数据库 URL
-        final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        final String DB_URL = "jdbc:mysql://localhost:3306/wannerdo?serverTimezone=UTC";
+        final String JDBC_DRIVER = Action.JDBC_DRIVER;
+        final String DB_URL = Action.DB_URL;
 
         // 数据库的用户名与密码，需要根据自己的设置
-        final String USER = "root";
-        final String PASS = "089012";
+        final String USER = Action.USER;
+        final String PASS = Action.PASS;
 
         //JSON转化
         ObjectMapper objectMapper = new ObjectMapper();
