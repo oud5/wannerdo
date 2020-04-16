@@ -6,52 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb131f27-4339-4ec6-8b6f-2fd6ea1ab6a6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../前端/wannerdo/pages/add/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../前端/wannerdo/pages/add/add.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../前端/wannerdo/pages/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../前端/wannerdo/pages/detail/detail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../前端/wannerdo/pages/list/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../前端/wannerdo/pages/list/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/action/Action.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/http/HttpRequest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/http/HttpRequest$miTM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/http/HttpRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/loginObject/Event.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/loginObject/Res.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/requestPackage/AddEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/requestPackage/ChangeContent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/requestPackage/ChangeTitle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/requestPackage/CheckHasOpenid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/requestPackage/DeleteEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/classes/requestPackage/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/jackson-annotations-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/javax.annotation.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/javax.ejb.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/javax.jms.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/javax.persistence.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/javax.resource.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/javax.servlet.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/javax.servlet.jsp.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/javax.transaction.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/wannerdo_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/action/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/action/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requestPackage/AddEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/requestPackage/AddEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requestPackage/ChangeContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/requestPackage/ChangeContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requestPackage/ChangeTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/requestPackage/ChangeTitle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requestPackage/CheckHasOpenid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/requestPackage/CheckHasOpenid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/requestPackage/DeleteEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/requestPackage/DeleteEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/action/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/action/Action.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/AddEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/AddEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/ChangeContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/ChangeContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/ChangeTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/ChangeTitle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/CheckHasOpenid.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/CheckHasOpenid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/DeleteEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/requestPackage/DeleteEvent.class" afterDir="false" />
-    </list>
+    <list default="true" id="bb131f27-4339-4ec6-8b6f-2fd6ea1ab6a6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,6 +152,7 @@
       <workItem from="1586355987316" duration="498000" />
       <workItem from="1586356547752" duration="826000" />
       <workItem from="1586419364056" duration="1912000" />
+      <workItem from="1586937869550" duration="102000" />
     </task>
     <servers />
   </component>
@@ -212,10 +168,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="122" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586156629855" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1586156410743">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1586937941760">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586156410743" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586937941760" />
     <state width="1153" height="158" key="GridCell.Tab.0.bottom" timestamp="1586356485103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -268,6 +224,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586356756231" />
+    <state x="57" y="0" key="new project wizard" timestamp="1586937969862">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1586937969862" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586155934714">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
